@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+.image_galary {
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.image_galary > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .4, .8);
+}
+.image_galary > div:hover {
+    flex: 5;
+}
